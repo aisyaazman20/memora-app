@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Memoraapp"
         tools:targetApi="31">
         <activity
+            android:name=".ui.authentication.Authentication"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
